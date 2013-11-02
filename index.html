@@ -1,0 +1,103 @@
+<html>
+	<head>
+
+		<title>damagedice.com - this is what we do for fun</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="screen.css"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/font/font.css"/>
+
+		<style type="text/css">
+
+body {
+	background: #111 url('images/bg_03_sunset.jpg') repeat-x top center;
+	background-attachment: fixed;
+	height: 2000px;
+	font: 11pt 'source_sans_proregular';
+	color: #cca;
+
+}
+a, a:hover, a:active, a:visited {
+	color: #ddb;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #ff0;
+
+}
+
+a:hover:after {
+	content: " -";
+}
+
+#banner {
+	background: transparent url('images/banner01.png') fixed no-repeat top right;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+#home_link {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	display: block;
+	z-index: 2
+}
+#home_link:after {
+	content: ""
+}
+#home_link img {
+	width: 390px;
+	height: 340px;
+}
+.nav {
+	font: 24pt 'source_sans_problack_italic';
+	position: fixed;
+	padding: 340px 0px;
+	width: 180px;
+
+	text-shadow: 0 3px black
+
+}
+
+.left {
+	right: 0px;
+}
+.right {
+	right: 190px;
+	font-size: 18pt;
+}
+#wrapper {
+	background: #111 url('images/banner02.png') fixed no-repeat top right;
+	min-height: 2000px;
+	padding: 20px 380px 20px 20px;
+}
+
+		</style>
+	</head>
+	<body>
+		<a href="#" id="home_link">
+			<img src="images/spacer.png"/>
+		</a>
+		<ul class="nav left">
+			<li>about</li>
+			<li><a href="http://github.com/alteveer" target="_new">github</a></li>
+			<li><a href="http://twitter.com/partycounter" target="_new">twitter</a></li>
+			<li>links</li>
+		</ul>
+		<ul class="nav right">
+			<li>hex</li>
+			<li>tanx</li>
+			<li>card game</li>
+		</ul>
+		
+		<div id="banner">
+		</div>
+
+		<div id="wrapper">		
+
+			<p>This is a <em>hello world</em> page!</p>
+		</div>
+	</body>
+</html>
